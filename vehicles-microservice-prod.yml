@@ -3,7 +3,7 @@ spring:
     name: vehicle-microservice
   data:
     mongodb:
-      uri: mongodb://user:pass@localhost:27017/microdb?authSource=admin
+      uri: mongodb://user:Pa$$w0rd@aws-east1:27017/microdb?authSource=vehiculos
   cloud:
     config:
       enabled: false
