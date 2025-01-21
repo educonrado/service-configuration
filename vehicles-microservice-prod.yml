@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: vehicle-microservice
+  data:
+    mongodb:
+      uri: mongodb://user:Pa$$w0rd@aws-east1:27017/microdb?authSource=vehiculos
+  cloud:
+    config:
+      enabled: false
+server:
+  port: 0
+eureka:
+  instance:
+    instance-id: ${spring.application.name}:${random.uuid}
